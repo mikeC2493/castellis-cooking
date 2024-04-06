@@ -1,0 +1,40 @@
+.menuTable{
+    width:100%;
+}
+
+.card-body{
+    text-align:center;
+}
+
+.card-img-top{
+    width:50%;
+    margin:auto;
+}
+
+#introText{
+    margin-top:1.5em;
+}
+
+.sectionTitle{
+    text-align:center;
+    background:#bfd7ef;
+    border-radius:.2em;
+    margin:1em 0em 1em 0em;
+}
+
+.typeCol{
+    width:60%;
+}
+
+.marketPriceCol{
+    width:40%;
+}
+
+.typeColHeader{
+    width:60%;
+}
+
+.marketPriceColHeader{
+    width:40%;
+}
+

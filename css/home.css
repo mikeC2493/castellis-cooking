@@ -1,0 +1,126 @@
+table{
+    width:50%;
+    margin: 0 auto;
+    text-align:center;
+    border:2px solid black;
+}
+
+th{
+    background:#bfd7ef;
+    color:black;
+    font-weight:600;
+}
+
+#containerDiv{
+    display:flex;
+    flex-direction:row;
+}
+
+#logoTable{
+    width:100%;
+    border:none;
+}
+
+.spaceCol{
+    width:25%;
+}
+
+#logoCol{
+    width:50%;
+}
+
+#returnCol{
+    width:25%;
+    vertical-align:top;
+    padding-top:.5em;
+    text-align:right;
+}
+
+#returnHome:hover{
+font-weight:600;
+}
+
+#overallDiv{
+    width:100%; /*75%*/
+    margin:0 auto;
+    padding:0 2em 0 2em;
+}
+
+.borderDiv{
+    background:#bfd7ef;
+    width:12.5%;
+}
+
+.navLink{
+    color:black;
+    display:block;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.navLink:hover{
+    color:white;
+}
+
+.nav-link{
+    font-weight:600;
+    color:black;
+}
+
+.nav-link:hover{
+    font-size:1.1em;
+}
+
+.navBtn{
+    width:10%;
+    height: 2em;
+    border-radius:.3em;
+    background:#bfd7ef;
+    padding-inline:0px;
+}
+
+.navBtn:hover{
+    background:#156082;
+}
+
+#logoImage{
+    margin:0 auto;
+    display:block;
+}
+
+#buttonDiv{
+    text-align:center;
+    margin-bottom:2em;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    background:#bfd7ef;
+    border-radius:.2em;
+}
+
+#restaurantImage{
+    margin:0 auto;
+    display:block;
+}
+
+.centerImage{
+    margin:0 auto;
+    width:25%;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        font-size:.8em;
+    }
+
+    table{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    table{
+        width:100%;
+    }
+}
