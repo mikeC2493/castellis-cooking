@@ -5,6 +5,22 @@ table{
     border:2px solid black;
 }
 
+.reviewCell{
+    padding:.5em;
+}
+
+.navbar-nav .nav-link.active{
+    background-color:#3380cc;
+    color:white;
+    border-radius:.2em;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color:#3380cc;
+    color:white;
+    border-radius:.2em;
+}
+
 th{
     background:#bfd7ef;
     color:black;
@@ -58,17 +74,10 @@ font-weight:600;
     font-weight:600;
 }
 
-.navLink:hover{
-    color:white;
-}
 
 .nav-link{
     font-weight:600;
     color:black;
-}
-
-.nav-link:hover{
-    font-size:1.1em;
 }
 
 .navBtn{
@@ -80,7 +89,35 @@ font-weight:600;
 }
 
 .navBtn:hover{
-    background:#156082;
+    background:#3380cc;
+}
+
+.form-control{
+    border-color: #3380cc;
+}
+
+.btn-secondary{
+    background-color:#bfd7ef;
+    border-color:#bfd7ef;
+    color:black;
+}
+
+.btn-secondary:hover{
+    background-color:#3380cc;
+    color:white;
+    border-color:#3380cc;
+}
+
+.waitlistBtn{
+    background-color:#bfd7ef;
+    color:black;
+    border-color:#bfd7ef;
+}
+
+.waitlisttn:hover{
+    background-color:#3380cc;
+    color:white;
+    border-color:#3380cc;
 }
 
 #logoImage{
@@ -108,9 +145,31 @@ font-weight:600;
     width:25%;
 }
 
+#faqBtn{
+    background-color:#bfd7ef;
+    color:black;
+    border-color:#bfd7ef;
+}
+
+
+#faqBtn:hover{
+    background-color:#3380cc;
+    color:white;
+    border-color:#3380cc;
+}
+
+#confirmResBtn{
+    text-align:center;
+    margin-top:2em;
+}
+
 @media screen and (max-width: 500px) {
     body{
         font-size:.8em;
+    }
+
+    .reviewCell{
+        padding:.3em;
     }
 
     table{
